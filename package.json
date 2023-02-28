@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "author": "xsz <webfamer@163.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "echarts": "^5.4.1",
+    "highcharts": "^10.3.3",
+    "umi": "^4.0.52"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^4.1.2"
+  }
+}
